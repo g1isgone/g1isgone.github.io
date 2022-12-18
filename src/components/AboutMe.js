@@ -12,9 +12,7 @@ export default function AboutMe() {
       <Link href={pageData.aboutMe.advisor2.labRef} color="#53599A" underline="hover"> {pageData.aboutMe.advisor2.labName}. </Link> 
  
       <p></p>
-      I do research and <Typography display="inline" sx={{color:"#A26769"}}> redesign systems for users of varied stakeholders </Typography> to 
-      create interfaces that are for <Typography display="inline" sx={{color:"#A26769"}}> social-good and are accessible and natural </Typography> for the users. 
-      <p></p>
+       <Typography display="inline" sx={{color:"#A26769"}}> This page is still a work in progress...</Typography>
       Anyway, that's all for me! Feel free to click around and check out my projects! > :)
     </Typography>
     </div>
