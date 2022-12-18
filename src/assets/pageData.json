@@ -1,7 +1,7 @@
 {
-	"title" : "Angry Grinch",
+	"title" : "Ji Won Chung",
 	"aboutMe" : {
-        "occupation" : "Computer Science PhD Student",
+        "occupation" : "2nd Year Computer Science PhD Student",
 		"advisor1" : {
 			"name" : "Jeff Huang",
 			"ref": "https://jeffhuang.com/",
@@ -16,19 +16,19 @@
 		}
 	},
 	"publications" : [
-		{
-			"type": "paper",
-			"title" :"Grinch, Angry \"ReDesigning AR Glasses for Primary and Secondary Users\" J. Copyright Soc'y USA 45 (1997): 546.",
-			"href": "https://heinonline.org/hol-cgi-bin/get_pdf.cgi?handle=hein.journals/jocoso45&section=34",
-			"awards": null
-		},
-		{
-			"type": "poster",
-			"title" : "AR Glasses - Its Stakeholders",
-			"href": "https://www.youtube.com/watch?v=pbFma8Bd-AI&ab_channel=UniversalPictures",
-			"awards": "[ Honorable Mention ]"
-		}
-	],
+			{
+				"type": "paper",
+				"title" :"N. Howe and J. W. Chung, \"Symmetric Inkball Alignment with Loopy Models, \" 2019 International Conference on Document Analysis and Recognition (ICDAR), Sydney, Australia, 2019, pp. 349‑354, doi: 10.1109/ICDAR.2019.00063.",
+				"href": "http://www.science.smith.edu/~nhowe/Research/pubs/icdar2019.pdf",
+				"awards": null
+			},
+			{
+				"type": "poster",
+				"title" : "J. W. Chung, I. Raut, J. Y. Yun, K. Pien, S. Sridhar, M. R. Crouser, and R. J. Crouser, \"DSMVis: Interactive visual exploration of the DSM5 for mental health providers,\" 2017 IEEE Conference on Visual Analytics Science and Technology (VAST), Phoenix, AZ, USA, 2017.",
+				"href": "https://drive.google.com/file/d/129UdcmANSuxGHXdmvRC8N-6wyWu5ZhX1/view",
+				"awards": "[ Honorable Mention ]"
+			}
+		],
 	"projects" : [
 
 		{	

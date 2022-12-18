@@ -11,7 +11,7 @@ import DescriptionOutlinedIcon from '@mui/icons-material/DescriptionOutlined';
 import BuildOutlinedIcon from '@mui/icons-material/BuildOutlined';
 import FileDownloadOutlinedIcon from '@mui/icons-material/FileDownloadOutlined';
 
-import resume from '../assets/grinch_resume.pdf';
+import resume from '../assets/resume.pdf';
 
 export default function BreadcrumbHeader() {
   return (
