@@ -1,0 +1,71 @@
+{
+	"title" : "Angry Grinch",
+	"aboutMe" : {
+        "occupation" : "Computer Science PhD Student",
+		"advisor1" : {
+			"name" : "Jeff Huang",
+			"ref": "https://jeffhuang.com/",
+			"labRef": "https://hci.brown.edu/",
+			"labName": "Brown HCI Lab"
+		},
+		"advisor2" : {
+			"name" : "James Tompkin",
+			"ref": "https://jamestompkin.com/",
+			"labRef": "https://visual.cs.brown.edu/",
+			"labName": "Visual Computing Group"
+		}
+	},
+	"publications" : [
+		{
+			"type": "paper",
+			"title" :"Grinch, Angry \"ReDesigning AR Glasses for Primary and Secondary Users\" J. Copyright Soc'y USA 45 (1997): 546.",
+			"href": "https://heinonline.org/hol-cgi-bin/get_pdf.cgi?handle=hein.journals/jocoso45&section=34",
+			"awards": null
+		},
+		{
+			"type": "poster",
+			"title" : "AR Glasses - Its Stakeholders",
+			"href": "https://www.youtube.com/watch?v=pbFma8Bd-AI&ab_channel=UniversalPictures",
+			"awards": "[ Honorable Mention ]"
+		}
+	],
+	"projects" : [
+
+		{	
+			"name": "Redesigning AR Glasses for Mixed Reality Interactions",
+			"description": "How do we create AR glasses for people not using it?",
+			"thumbnail" : "images/project2/arAgency.svg",
+			"alt" : "Image of one person with AR glasses another person without",
+			"href": "#",
+			"path": "Project2"
+		},
+
+		{	
+			"name": "Contextual Inquiry of Contactless Water Dispenser",
+			"description": "Is innovation always accessible?",	
+			"thumbnail" : "images/save-water.svg",
+			"alt" : "Image of hand under water",
+			"href": "#",
+			"path": "Project1"
+		},
+
+		{	
+			"name": "Redesigning Koko as an Interactive Mental Health Chatbot",
+			"description": "A collaborative, external project redesining chatbots for added interactivity.",	
+			"thumbnail" : "images/koko.svg",
+			"alt" : "Image icon of text message bubbles, one with a heart in it",
+			"href": "https://sleepcoacher.cs.brown.edu/",
+			"path": "Project3"
+		},
+
+		{	
+			"name": "Redesigning Brown CS PhD for Accessibility and Usability",
+			"description": "Is the department's website truly accessible?",
+			"alt" : "Image icon of website",
+			"thumbnail" : "images/project4/websiteIcon.svg",
+			"href": "https://sleepcoacher.cs.brown.edu/",
+			"path": "Project4"
+		}
+
+	]
+}

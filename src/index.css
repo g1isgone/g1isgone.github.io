@@ -1,13 +1,74 @@
-body {
+/*body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
+}*/
+/*
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+*/
+
+
+body{
+/*  word-wrap: break-word;*/
+}
+
+.app-container{
+  margin-left: 15vw;
+  margin-right: 15vw;
+  margin-top: 8vw;
+  margin-bottom: 8vw;
+}
+
+.header-container{
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  align-items: flex-end;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#breadcrumbHeader{
+  padding: 0.5vw;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bredcrumbLink:hover{
+  text-decoration: underline;
+}
+
+.bredcrumbLink{
+  color: inherit;
+  text-decoration: inherit;
+}
+
+#about-me-container{
+  margin-top: 1vw;
+}
+
+#publications-container{
+  margin-top: 3vw;
+}
+
+#project-list-container{
+  margin-top: 3vw;
+  align-items: center;
+}
+
+.project-card{
+  margin: 1vw;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+
+.description-container{
+  margin-top:1vw;
 }
