@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.49c2b708.css",
-    "main.js": "/static/js/main.a4504967.js",
+    "main.js": "/static/js/main.e9b93c3c.js",
     "static/media/designIssues.png": "/static/media/designIssues.68ed99ef43ebb2b9e62b.png",
     "static/media/website_lofi.png": "/static/media/website_lofi.424b4a2debc755211bbe.png",
     "static/media/water-1.jpeg": "/static/media/water-1.bd6423cf31a067cd8cfb.jpeg",
@@ -32,15 +32,16 @@
     "static/media/bee.svg": "/static/media/bee.522e7b3331ded0877ca84426b4a30a0b.svg",
     "static/media/websiteIcon.svg": "/static/media/websiteIcon.f9909f043172ddd5b592.svg",
     "static/media/koko.svg": "/static/media/koko.91ac4409667cd7893735.svg",
+    "static/media/platypus.svg": "/static/media/platypus.a91a961894171b699b01beadcb4669f5.svg",
     "static/media/tmp.txt": "/static/media/tmp.0a3d49a784ed27d3e2f6.txt",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
     "static/media/references": "/static/media/references.5165531171c306e6df57",
     "main.49c2b708.css.map": "/static/css/main.49c2b708.css.map",
-    "main.a4504967.js.map": "/static/js/main.a4504967.js.map"
+    "main.e9b93c3c.js.map": "/static/js/main.e9b93c3c.js.map"
   },
   "entrypoints": [
     "static/css/main.49c2b708.css",
-    "static/js/main.a4504967.js"
+    "static/js/main.e9b93c3c.js"
   ]
 }
