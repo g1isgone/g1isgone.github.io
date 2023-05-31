@@ -2,7 +2,7 @@ import TitleHeader from "./TitleHeader.js";
 import AboutMe from './AboutMe.js';
 import Publications from './Publications.js';
 import ProjectList from './ProjectList.js';
-
+import platypusSvg from "../images/platypus.svg";
 
 import pageData from "../assets/pageData.json"
 

@@ -11,12 +11,11 @@ export default function AboutMe() {
       Hi, I'm {pageData.title}. I am a {pageData.aboutMe.occupation} at Brown University in the 
       <Link href={pageData.aboutMe.advisor1.labRef} color="#53599A" underline="hover"> {pageData.aboutMe.advisor1.labName} </Link> and 
       <Link href={pageData.aboutMe.advisor2.labRef} color="#53599A" underline="hover"> {pageData.aboutMe.advisor2.labName}. </Link> 
+      I'm advised by <Link href={pageData.aboutMe.advisor1.ref} color="#53599A" underline="hover"> {pageData.aboutMe.advisor1.name}</Link> and  <Link href={pageData.aboutMe.advisor2.ref} color="#53599A" underline="hover"> {pageData.aboutMe.advisor2.name}</Link>. I run the GWiCS+ group at Brown and have somehow become a plant person - artificial and of the sort.
       <p></p>
-
-      My primary research interests are in <BoldText txt="augmenting people's capabilities with visual information"/>, particularly in the realms of AR/VR.
-
+      My primary research interests are in <BoldText txt="human-centric systems that augment people's ability to process visual information"/> particularly in the realms of AR/VR. I also work on long-term behavioral computing for sleep data. 
+      
       <p></p>
-      <BoldText txt="This page is currently a work in progress, as I am revamping it,"/> but feel free to click around and check out my projects! > :)
     </Typography>
     </div>
   );

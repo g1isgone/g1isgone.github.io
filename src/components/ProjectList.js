@@ -10,7 +10,7 @@ export default function ProjectList() {
   return (
     <div id="project-list-container">
       <Typography sx={{marginTop:'5vw'}}  align="left" color="#A26769" variant="h5">
-        Projects
+        Selected Projects
       </Typography>
 
       <Box sx={

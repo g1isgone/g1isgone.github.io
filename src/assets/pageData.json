@@ -1,7 +1,7 @@
 {
 	"title" : "Ji Won Chung",
 	"aboutMe" : {
-                "occupation" : "2nd Year Computer Science PhD Student",
+                "occupation" : "2nd Year Computer Science PhD Candidate",
 		"advisor1" : {
 			"name" : "Jeff Huang",
 			"ref": "https://jeffhuang.com/",
@@ -18,13 +18,19 @@
 	"publications" : [
 			{
 				"type": "paper",
-				"title" :"N. Howe and J. W. Chung, \"Symmetric Inkball Alignment with Loopy Models, \" 2019 International Conference on Document Analysis and Recognition (ICDAR), Sydney, Australia, 2019, pp. 349‑354, doi: 10.1109/ICDAR.2019.00063.",
+				"title" :"J. Chung and J. Fu, \"Negotiating Dyadic Interactions through the Lens of Augmented Reality Glasses,\" Designing Interactive Systems Conference (DIS ’23), July 10–14, 2023, Pittsburgh, PA, USA. doi: 10.1145/3563657.3595967",
+				"href": "https://doi.org/10.1145/3563657.3595967",
+				"awards": "[To Appear]"
+			},
+			{
+				"type": "paper",
+				"title" :"N. Howe and J. Chung, \"Symmetric Inkball Alignment with Loopy Models,\" 2019 International Conference on Document Analysis and Recognition (ICDAR), Sydney, Australia, 2019, pp. 349‑354, doi: 10.1109/ICDAR.2019.00063.",
 				"href": "http://www.science.smith.edu/~nhowe/Research/pubs/icdar2019.pdf",
 				"awards": null
 			},
 			{
 				"type": "poster",
-				"title" : "J. W. Chung, I. Raut, J. Y. Yun, K. Pien, S. Sridhar, M. R. Crouser, and R. J. Crouser, \"DSMVis: Interactive visual exploration of the DSM5 for mental health providers,\" 2017 IEEE Conference on Visual Analytics Science and Technology (VAST), Phoenix, AZ, USA, 2017.",
+				"title" : "J. Chung, I. Raut, J. Y. Yun, K. Pien, S. Sridhar, M. R. Crouser, and R. J. Crouser, \"DSMVis: Interactive visual exploration of the DSM5 for mental health providers,\" 2017 IEEE Conference on Visual Analytics Science and Technology (VAST), Phoenix, AZ, USA, 2017.",
 				"href": "https://drive.google.com/file/d/129UdcmANSuxGHXdmvRC8N-6wyWu5ZhX1/view",
 				"awards": "[ Honorable Mention ]"
 			}
@@ -38,34 +44,6 @@
 			"alt" : "Image of one person with AR glasses another person without",
 			"href": "#",
 			"path": "Project2"
-		},
-
-		{	
-			"name": "Contextual Inquiry of Contactless Water Dispenser",
-			"description": "Is innovation always accessible?",	
-			"thumbnail" : "images/save-water.svg",
-			"alt" : "Image of hand under water",
-			"href": "#",
-			"path": "Project1"
-		},
-
-		{	
-			"name": "Redesigning Koko as an Interactive Mental Health Chatbot",
-			"description": "A collaborative, external project redesining chatbots for added interactivity.",	
-			"thumbnail" : "images/koko.svg",
-			"alt" : "Image icon of text message bubbles, one with a heart in it",
-			"href": "https://sleepcoacher.cs.brown.edu/",
-			"path": "Project3"
-		},
-
-		{	
-			"name": "Redesigning Brown CS PhD for Accessibility and Usability",
-			"description": "Is the department's website truly accessible?",
-			"alt" : "Image icon of website",
-			"thumbnail" : "images/project4/websiteIcon.svg",
-			"href": "https://sleepcoacher.cs.brown.edu/",
-			"path": "Project4"
 		}
-
 	]
 }
