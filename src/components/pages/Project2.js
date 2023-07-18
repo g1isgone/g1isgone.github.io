@@ -115,7 +115,7 @@ return (
     </Typography>
     <Typography align="left"  variant="body1" sx={{fontWeight:'light', marginTop:'1vw'}} component="div" >
     From our behavioral obserivations we found that there is a <BoldText txt="power imbalance between primary and secondary users"/> 
-    becayse there are currently no features designed for consensual interactions between primary and secondary users in AR glasses. 
+    because there are currently no features designed for consensual interactions between primary and secondary users in AR glasses. 
     Secondary users are often stripped of their right to choose to participate because they are unaware of what the primary user is doing with AR glasses. 
     We present a set of AR glasses' design recommendations that could ameliorate the power imbalance.
     </Typography>

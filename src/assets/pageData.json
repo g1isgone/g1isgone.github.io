@@ -1,7 +1,7 @@
 {
 	"title" : "Ji Won Chung",
 	"aboutMe" : {
-                "occupation" : "2nd Year Computer Science PhD Candidate",
+                "occupation" : "3rd Year Computer Science PhD Candidate",
 		"advisor1" : {
 			"name" : "Jeff Huang",
 			"ref": "https://jeffhuang.com/",
@@ -20,7 +20,7 @@
 				"type": "paper",
 				"title" :"J. Chung and J. Fu, \"Negotiating Dyadic Interactions through the Lens of Augmented Reality Glasses,\" Designing Interactive Systems Conference (DIS ’23), July 10–14, 2023, Pittsburgh, PA, USA. doi: 10.1145/3563657.3595967",
 				"href": "https://doi.org/10.1145/3563657.3595967",
-				"awards": "[To Appear]"
+				"awards": null
 			},
 			{
 				"type": "paper",
