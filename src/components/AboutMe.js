@@ -17,7 +17,7 @@ export default function AboutMe() {
       My primary research interests are in <BoldText txt="creating long-term, human-centric systems that adapt to changing human behaviors."/> 
       Here's my take: Technology changes how we interact with others. It affects our behavior and ultimately redefines our social relationships.      
       Within the realms of AR/VR, the visual overlays and form factor change the behavior of individuals and the way they interact with each other 
-      <code>&#8212;</code> think of TikTok challenges and Snapchat filters and how users move around the mobile screen and wit the filters. 
+      <code>&#8212;</code> think of TikTok challenges and Snapchat filters and how users move around the mobile screen and with the filters. 
       With various tracking systems, like mobile sleep health tracking, we can observe people changing to new realities and new expectations. 
       So how do we learn from these systems, look forward into the future, and design systems that are built to last? 
       What does it mean to last? And what kind of long-term impact will these systems have? 
