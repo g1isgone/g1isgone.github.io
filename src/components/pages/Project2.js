@@ -10,6 +10,7 @@ import arGlasses from "../../images/project2/arGlasses.svg";
 
 import AutoAccordian from '../AutoAccordion.js';
 import BoldText from '../BoldText';
+import dis23PresentationPdf from '../../presentations/dis2023PublishablePresentation.pdf';
 
 export default function Project1() {
 return (
@@ -17,6 +18,8 @@ return (
     <Typography sx={{marginTop:"2vw", marginBottom:'1vw',fontWeight:'light'}} align="left" variant="h5" color="#A26769"> 
     Users and Stakeholders of Mixed Reality
     </Typography>
+
+
     <Typography align="left"  variant="body1" sx={{fontWeight:'light'}} component='div' >
     Augmented reality (AR) glasses extend and alter users' perceptions in face-to-face interactions. 
     While many AR studies focus on the design experiences and psychological effects for <BoldText txt="primary users,"/>
@@ -28,6 +31,13 @@ return (
     <BoldText txt=" design AR Glasses for both primary and secondary users?"/> 
     </Typography>
 
+    <p></p>
+    <Card sx={{  display:'flex', alignItems:'center',
+				flexDirection:'row', flexWrap:'wrap', justifyContent:'space-evenly'}} elevation={0}>
+    <iframe  style={{ height: "75vh", width: "100%"}} src={dis23PresentationPdf}></iframe>
+
+    </Card>
+ 
     <Card sx={{  display:'flex', alignItems:'center',
 				flexDirection:'row', flexWrap:'wrap', justifyContent:'space-evenly'}} elevation={0}>
       <CardContent
