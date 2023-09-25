@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.49c2b708.css",
-    "main.js": "/static/js/main.b59fab44.js",
+    "main.js": "/static/js/main.22950a4f.js",
     "static/media/designIssues.png": "/static/media/designIssues.68ed99ef43ebb2b9e62b.png",
+    "static/media/dis2023PublishablePresentation.pdf": "/static/media/dis2023PublishablePresentation.e50dc56e2822c0c52969.pdf",
     "static/media/website_lofi.png": "/static/media/website_lofi.424b4a2debc755211bbe.png",
     "static/media/water-1.jpeg": "/static/media/water-1.bd6423cf31a067cd8cfb.jpeg",
     "static/media/website_hifi.png": "/static/media/website_hifi.aa6d7f4508586131d21a.png",
@@ -38,10 +39,10 @@
     "index.html": "/index.html",
     "static/media/references": "/static/media/references.5165531171c306e6df57",
     "main.49c2b708.css.map": "/static/css/main.49c2b708.css.map",
-    "main.b59fab44.js.map": "/static/js/main.b59fab44.js.map"
+    "main.22950a4f.js.map": "/static/js/main.22950a4f.js.map"
   },
   "entrypoints": [
     "static/css/main.49c2b708.css",
-    "static/js/main.b59fab44.js"
+    "static/js/main.22950a4f.js"
   ]
 }
