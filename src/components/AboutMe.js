@@ -25,7 +25,7 @@ export default function AboutMe() {
       So how do we learn from these systems, look forward into the future, and design systems that are built to last? How do they enable the individual, the multitude?
       What does it mean to last? And what kind of long-term impact will these systems have <code>&#8212;</code> to the society and the individual? 
       <p></p>
-      That's all for now, but please feel free to email me. Will talk for coffee.
+      That's all for now, but please feel free to email me. Will work for coffee :) 
       <p></p> 
       For recent news and updates, I recently interned at Adobe Research to work on Mobile AR Visualizations... details pending. 
       I also presented a <Link href={"https://jeffhuang.com/papers/ARAgency_DIS23.pdf"} color="#53599A" underline="hover"> paper at DIS'23 </Link> in Pittsburgh for the first time! 
