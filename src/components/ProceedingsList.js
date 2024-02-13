@@ -11,9 +11,9 @@ import CoPresentOutlinedIcon from '@mui/icons-material/CoPresentOutlined';
 
 import pageData from '../assets/pageData.json';
 
-export default function PublicationList() {
-  function getPublciationIcon(publicationType){
-  	if (publicationType == "paper"){
+export default function ProceedingsList({publicationType}) {
+  function getPublciationIcon(){
+  	if (publicationType == "paper" ){
   		return <DescriptionOutlinedIcon/>;
   	}
   	if (publicationType == "poster"){
@@ -21,12 +21,21 @@ export default function PublicationList() {
   	}
   }
 
+  function getProceedingsData(){
+	if(publicationType == "paper"){
+		return pageData.publications
+	}
+
+	if(publicationType =="poster"){
+		return pageData.posters
+	}
+  }
 
   return (
     <Box sx={{ width: '100%', bgcolor: 'background.paper' }}>
       <nav aria-label="main mailbox folders">
         <List align="left"disablePadding={true}>
-          { pageData.publications.map (( publication, index ) =>
+          { getProceedingsData().map (( publication, index ) =>
           	<ListItem key={index} alignItems="flex-start" disablePadding={true}>
 	            <ListItemButton alignItems="flex-start" align="left" disableGutters={true}  component="a" href={publication.href}>
 	              <ListItemIcon>

@@ -27,23 +27,34 @@
 				"title" :"N. Howe and J. Chung, \"Symmetric Inkball Alignment with Loopy Models,\" 2019 International Conference on Document Analysis and Recognition (ICDAR), Sydney, Australia, 2019, pp. 349‑354, doi: 10.1109/ICDAR.2019.00063.",
 				"href": "http://www.science.smith.edu/~nhowe/Research/pubs/icdar2019.pdf",
 				"awards": null
-			},
-			{
-				"type": "poster",
-				"title" : "J. Chung, I. Raut, J. Y. Yun, K. Pien, S. Sridhar, M. R. Crouser, and R. J. Crouser, \"DSMVis: Interactive visual exploration of the DSM5 for mental health providers,\" 2017 IEEE Conference on Visual Analytics Science and Technology (VAST), Phoenix, AZ, USA, 2017.",
-				"href": "https://drive.google.com/file/d/129UdcmANSuxGHXdmvRC8N-6wyWu5ZhX1/view",
-				"awards": "[ Honorable Mention ]"
 			}
 		],
+	"posters" : [
+		{
+			"type": "poster",
+			"title" : "J. Chung, I. Raut, J. Y. Yun, K. Pien, S. Sridhar, M. R. Crouser, and R. J. Crouser, \"DSMVis: Interactive visual exploration of the DSM5 for mental health providers,\" 2017 IEEE Conference on Visual Analytics Science and Technology (VAST), Phoenix, AZ, USA, 2017.",
+			"href": "https://drive.google.com/file/d/129UdcmANSuxGHXdmvRC8N-6wyWu5ZhX1/view",
+			"awards": "[ Honorable Mention ]"
+		}
+	],
 	"projects" : [
 
 		{	
-			"name": "Redesigning AR Glasses for Mixed Reality Interactions",
-			"description": "How do we create AR glasses for people not using it?",
-			"thumbnail" : "images/project2/arAgency.svg",
-			"alt" : "Image of one person with AR glasses another person without",
+			"name": "My Yesterday is not My Today",
+			"description": "Every day is a new day. For some, each day is nothing like its yesterday. So how do people maintain a sleep routine?",
+			"thumbnail" : "images/sleep/inconsistent_sleep.svg",
+			"alt" : "Sleep scores from the Sleep as Android app",
 			"href": "#",
-			"path": "Project2"
+			"path": "Sleep"
+		},
+
+		{	
+			"name": "New Tech, New Interactions",
+			"description": "Ooh la la, AR glasses! It shines and sparkles, but how does that affect our interactions with each other?",
+			"thumbnail" : "images/arAgency/arAgency.png",
+			"alt" : "Line drawing of one person with AR glasses another person without",
+			"href": "#",
+			"path": "ArAgency"
 		}
 	]
 }

@@ -9,29 +9,18 @@ export default function AboutMe() {
   return (
     <div id="about-me-container">
     <Typography align="left"  variant="subtitle1" sx={{fontWeight:'light'}}>
-      Hi, I'm {pageData.title}. I am a {pageData.aboutMe.occupation} at Brown University in the 
-      <Link href={pageData.aboutMe.advisor1.labRef} color="#53599A" underline="hover"> {pageData.aboutMe.advisor1.labName} </Link> and 
-      <Link href={pageData.aboutMe.advisor2.labRef} color="#53599A" underline="hover"> {pageData.aboutMe.advisor2.labName}. </Link> 
-      I'm advised by <Link href={pageData.aboutMe.advisor1.ref} color="#53599A" underline="hover"> {pageData.aboutMe.advisor1.name}</Link> and <Link href={pageData.aboutMe.advisor2.ref} color="#53599A" underline="hover"> {pageData.aboutMe.advisor2.name}</Link>. I run the GWiCS+ group at Brown and have somehow become a plant person - artificial and of the sort.
+      Hi, I'm Ji Won and I'm a {pageData.aboutMe.occupation} at Brown University.
+      I'm advised by <Link href={pageData.aboutMe.advisor1.ref} color="#53599A" underline="hover"> {pageData.aboutMe.advisor1.name}</Link> in the <Link href={pageData.aboutMe.advisor1.labRef} color="#53599A" underline="hover"> {pageData.aboutMe.advisor1.labName}. </Link> 
+      I also run the <Link href="https://sites.google.com/brown.edu/gwics" color="#53599A" underline="hover">GWiCS+</Link> group at Brown and have somehow become a plant person <span>&#8212;</span> artificial and of the sort.
       <p></p>
       My primary research interests are in <BoldText txt="creating long-term, human-centric systems that adapt to changing human behaviors."/> 
-      <p></p>
-      
-      Technology changes our behaviors, how we interact with others, and how we view ourselves. It ultimately redefines our social relationships and our relationship with the self.    
-      Within the realms of AR/VR, the visual overlays and form factor change the behavior of individuals and the way people interact with each other
-      <code>&#8212;</code> think of TikTok challenges and Snapchat filters and how users move around the mobile screen and with the filters. 
-      Ubiquitous tracking systems, such as mobile apps for sleep health, change a person's relationship with oneself: by recording one's own behavior, progress, and health, an individual can learn, reflect, and even change their own habits. 
-      Done at a wide scale, over a long period of time, we can start to observe people changing to new realities, generating new ways of living. 
-      So how do we learn from these systems, look forward into the future, and design systems that are built to last? How do they enable the individual, the multitude?
-      What does it mean to last? And what kind of long-term impact will these systems have <code>&#8212;</code> to the society and the individual? 
+      People naturally change over time, but it's an aspect we often overlook. 
+      So how can systems reflect that and what can we learn from our ever-changing selves?
+      I've investigated this in the context of sleep and mixed reality so far, but more to come!
       <p></p>
       That's all for now, but please feel free to email me. Will work for coffee :) 
       <p></p> 
-      For recent news and updates, I recently interned at Adobe Research to work on Mobile AR Visualizations... details pending. 
-      I also presented a <Link href={"https://jeffhuang.com/papers/ARAgency_DIS23.pdf"} color="#53599A" underline="hover"> paper at DIS'23 </Link> in Pittsburgh for the first time! 
-      The <Link href={dis23PresentationPdf} color="#53599A" underline="hover"> presentation </Link> was on how the presence of AR glasses and rudimentary face filters affect power dynamics between the user and the secondary actor, 
-      a term we coined for people who don't wear AR glasses but are active co-creators of the mixed reality space. It recently got some <Link href={"https://spectrum.ieee.org/ar-glasses"} color="#53599A" underline="hover">press</Link> too - woohoo.
-    </Typography>
+     </Typography>
     </div>
   );
 }

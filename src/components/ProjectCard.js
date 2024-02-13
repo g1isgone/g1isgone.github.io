@@ -41,9 +41,10 @@ export default function ProjectCard({project}) {
   <CardContent
     component="img"
 sx={{
-        height: '30%',
-        width: '30%',
-  selfAlign:'center'
+        height:'75%',
+        width: 'auto',
+        maxHeight: '200px',
+        maxWidth: '240px',
       }}
       alt={`${project.alt}` }
           src={ require( `../${project.thumbnail}`) }

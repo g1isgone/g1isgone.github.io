@@ -2,13 +2,13 @@ import { Typography } from '@mui/material';
 
 import BasicList from './ProceedingsList.js';
 
-export default function Publications() {
+export default function Posters() {
   return (
-    <div id="publications-container">
+    <div id="posters-container">
       <Typography  align="left" color="#A26769" variant="h5" >
-       Publications
+       Posters
       </Typography>
-      <BasicList publicationType="paper"/>
+      <BasicList publicationType="poster"/>
     </div>
   );
 }
