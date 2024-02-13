@@ -52,7 +52,7 @@ return (
 				flexDirection:'row', flexWrap:'wrap', justifyContent:'space-evenly'}} elevation={0}>
      <CardContent 	
 	  	  sx={{
-            width: '35rem',
+            width: '25rem',
           }}>
         <Typography display="inline"  variant="body2" sx={{fontWeight:'light'}}>
           User is awake and asleep at the same times on Monday, Tuesday, and Wednesday. 
@@ -85,7 +85,7 @@ return (
       />
      <CardContent 	
 	  	  sx={{
-            width: '35rem',
+            width: '25rem',
           }}>
         <Typography display="inline"  variant="body2" sx={{fontWeight:'light'}}>
         User goes to bed at different times on Tuesday, in comparison to Monday. 
