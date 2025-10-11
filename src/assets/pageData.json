@@ -1,30 +1,36 @@
 {
 	"title" : "Ji Won Chung",
 	"aboutMe" : {
-                "occupation" : "4th Year Computer Science PhD Candidate",
+        "occupation" : "5th Year Computer Science PhD Candidate",
 		"advisor1" : {
 			"name" : "Jeff Huang",
 			"ref": "https://jeffhuang.com/",
 			"labRef": "https://hci.brown.edu/",
 			"labName": "Brown HCI Lab"
-		},
-		"advisor2" : {
-			"name" : "James Tompkin",
-			"ref": "https://jamestompkin.com/",
-			"labRef": "https://visual.cs.brown.edu/",
-			"labName": "Visual Computing Group"
 		}
 	},
 	"publications" : [
 			{
 				"type": "paper",
-				"title" :"J. Chung and J. Fu, \"Negotiating Dyadic Interactions through the Lens of Augmented Reality Glasses,\" Designing Interactive Systems Conference (DIS ’23), July 10–14, 2023, Pittsburgh, PA, USA. doi: 10.1145/3563657.3595967",
+				"title" :"J. Chung, R. Yuan, K. Zitting, J. Chen, N. Xu, N. Daskalova, J. Huang \"Beyond the Circadian Rhythm: Variable Cycles of Regularity Found in Long-Term Sleep Tracking,\" Conference on Human Factors in Computing Systems (CHI ’25), 2025, Yokohama, Japan. doi: 10.1145/3706598.3713868",
+				"href": "https://dl.acm.org/doi/full/10.1145/3706598.3713868",
+				"awards": null
+			},
+			{
+				"type": "paper",
+				"title" :"J. Chung, T. Zhou, I. Chen, K. Hsu, R. A. Rossi, A. Siu, S. Guo, F. Dernoncourt, J. Tompkin, J. Huang \"InfoVids: Reimagining the Viewer Experience with Alternative Visualization-Presenter Relationships,\" 2023, arXiv: 12505.03164",
+				"href": "https://arxiv.org/abs/2505.03164",
+				"awards": null
+			},					
+			{
+				"type": "paper",
+				"title" :"J. Chung, J. Fu, and J. Huang \"Negotiating Dyadic Interactions through the Lens of Augmented Reality Glasses,\" Designing Interactive Systems Conference (DIS ’23), July 10–14, 2023, Pittsburgh, PA, USA. doi: 10.1145/3563657.3595967",
 				"href": "https://doi.org/10.1145/3563657.3595967",
 				"awards": null
 			},
 			{
 				"type": "paper",
-				"title" :"N. Howe and J. Chung, \"Symmetric Inkball Alignment with Loopy Models,\" 2019 International Conference on Document Analysis and Recognition (ICDAR), Sydney, Australia, 2019, pp. 349‑354, doi: 10.1109/ICDAR.2019.00063.",
+				"title" :"N. Howe and J. Chung, \"Symmetric Inkball Alignment with Loopy Models,\" 2019 International Conference on Document Analysis and Recognition (ICDAR), Sydney, Australia, 2019, pp. 349‑354, doi: 10.1109/ICDAR.2019.00063",
 				"href": "http://www.science.smith.edu/~nhowe/Research/pubs/icdar2019.pdf",
 				"awards": null
 			}
@@ -32,7 +38,13 @@
 	"posters" : [
 		{
 			"type": "poster",
-			"title" : "J. Chung, I. Raut, J. Y. Yun, K. Pien, S. Sridhar, M. R. Crouser, and R. J. Crouser, \"DSMVis: Interactive visual exploration of the DSM5 for mental health providers,\" 2017 IEEE Conference on Visual Analytics Science and Technology (VAST), Phoenix, AZ, USA, 2017.",
+			"title" : "J. Chung, J. Huang, \"Designing Systems for Long-term Sensemaking,\" 2025 UbiComp/ISWC Doctoral Colloquium, Espoo, Finland.",
+			"href": "https://drive.google.com/file/d/1P8Qidsg1W7u0ew_iDJEnQFp2NNsyRjgr/view",
+			"awards": "[ Preprint ]"
+		},
+		{
+			"type": "poster",
+			"title" : "J. Chung, I. Raut, J. Y. Yun, K. Pien, S. Sridhar, M. R. Crouser, and R. J. Crouser, \"DSMVis: Interactive visual exploration of the DSM5 for mental health providers,\" 2017 IEEE Conference on Visual Analytics Science and Technology (VAST), Phoenix, AZ, USA.",
 			"href": "https://drive.google.com/file/d/129UdcmANSuxGHXdmvRC8N-6wyWu5ZhX1/view",
 			"awards": "[ Honorable Mention ]"
 		}

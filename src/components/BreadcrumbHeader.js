@@ -10,6 +10,7 @@ import Face4Icon from '@mui/icons-material/Face4';
 import DescriptionOutlinedIcon from '@mui/icons-material/DescriptionOutlined';
 import BuildOutlinedIcon from '@mui/icons-material/BuildOutlined';
 import FileDownloadOutlinedIcon from '@mui/icons-material/FileDownloadOutlined';
+import ArticleOutlinedIcon from '@mui/icons-material/ArticleOutlined';
 
 import resume from '../assets/resume.pdf';
 
@@ -30,6 +31,13 @@ export default function BreadcrumbHeader() {
           to="/#about-me-container"
         >  <Face4Icon  sx={{ mr: 0.5 }} fontSize="inherit" />
           About Me
+        </HashLink>
+        <HashLink
+          sx={{ display: 'flex', alignItems: 'center'   }}
+          className="bredcrumbLink"
+          to="/#personal-press"
+        >  <ArticleOutlinedIcon  sx={{ mr: 0.5 }} fontSize="inherit" />
+        Press
         </HashLink>
         <HashLink
           sx={{ display: 'flex', alignItems: 'center'   }}

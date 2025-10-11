@@ -1,5 +1,7 @@
 import { Typography } from '@mui/material';
 import Link from '@mui/material/Link';
+import Divider from '@mui/material/Divider';
+import { Box } from '@mui/material';
 
 import BoldText from "./BoldText";
 import pageData from "../assets/pageData.json";
@@ -12,15 +14,26 @@ export default function AboutMe() {
       Hi, I'm Ji Won and I'm a {pageData.aboutMe.occupation} at Brown University.
       I'm advised by <Link href={pageData.aboutMe.advisor1.ref} color="#53599A" underline="hover"> {pageData.aboutMe.advisor1.name}</Link> in the <Link href={pageData.aboutMe.advisor1.labRef} color="#53599A" underline="hover"> {pageData.aboutMe.advisor1.labName}. </Link> 
       <p></p>
-      My primary research interests are in <BoldText txt="creating long-term, human-centric systems that adapt to natural human behaviors."/> 
-      People naturally change over time, but it's an aspect we often overlook. 
-      So how can systems reflect that and what can we learn from our ever-changing selves?
-      I've investigated this in the context of sleep and mixed reality so far, but more to come!
+      <BoldText txt="I research and design systems for long-term routine management and sensemaking"/> <span>&#8212;</span> a.k.a. helping people understand their personal data over time.
+      We track so much data nowadays, but how much of it is really for us? 
+      Are current tools built for us, or for the benefit of others? 
+      If the latter, how can we reimagine tools that are truly <i>for</i> us, and even grow <i>with</i> us over time? I've been looking at this for women's health recently, and will add some updates in my ponderings soon...
       <p></p>
       If you're wondering what the green blob is... that's a platypus next to some animated plants. Yes, I've sort of become a plant person <span>&#8212;</span> artificial and of the sort.
-      That's all for now, but please feel free to email me, details in resume. Will work for coffee :) 
+      If you want to talk more, feel free to reach out! Details are in my resume, will work for coffee :) 
       <p></p> 
+  <p></p> 
+    
+     <Typography id="personal-press" sx={{marginTop:'3vw'}}  align="left" color="#A26769" variant="h5">
+      Personal Press
+      </Typography>
+      <p></p>  &#10024; Oct 12-13, 2025 <span>&#8212;</span> I'll be at Aalto University for the 2025 UbiComp/ISWC Doctoral Colloquium! Don't be a stranger, I usually don't bite! &#10024; 
+      <p></p>  &#10024;  Sep 26, 2025  <span>&#8212;</span> Completed my 5-month internship at Apple as a Human Factors Researcher with the wonderful Behavior and Experience Team~ Checkout <Link href={"https://support.apple.com/en-us/123707"} color="#53599A" underline="hover">Adaptive Power</Link>, the project I worked on that shipped on all iOS 26 devices! &#10024; 
+      <p></p>  &#10024;  Apr 25, 2025  <span>&#8212;</span> My baby project, <Link href={"https://jeffhuang.com/papers/SleepRegularity_CHI25.pdf"} color="#53599A" underline="hover">Beyond the Circadian Rhythm: Variable Cycles of Regularity Found in Long-Term Sleep Tracking</Link>, is finally in with a <Link href={"https://www.youtube.com/watch?v=U5Vmm1FjkXU"} color="#53599A" underline="hover">cute hand-drawn, animated blob</Link>! Please watch it... I spent too much of my PhD on it :') &#10024; 
+      <p></p>  &#10024;  Jan/Mar, 2025 <span>&#8212;</span> Special Recognition for Outstanding Review for CHI 2025 and DIS 2025 <span>&#8212;</span> will continue trying not to be Reviewer #3 &#10024;
+      <p></p>  &#10024;  Sep 26, 2024  <span>&#8212;</span> First Place for the Digital Health Pitch Competition for <Link href={"https://cdh.brown.edu/2024-digital-health-pitch-competition-finalists-judges"} color="#53599A" underline="hover">Productivity, Period</Link>! Woo-hoo! &#10024;
      </Typography>
+   
     </div>
   );
 }
